@@ -29,7 +29,8 @@ import urllib
 print("Password/Enpoint IP for localtunnel is:", urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n"))
 
 !streamlit run app.py & npx localtunnel --port 8501
-or with ngrok:
+
+#Or with ngrok:
 
 from pyngrok import ngrok
 ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN") # Replace with your actual ngrok auth token
