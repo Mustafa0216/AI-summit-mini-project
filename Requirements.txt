@@ -1,0 +1,7 @@
+streamlit
+xgboost
+pyngrok
+sklearn
+pandas
+numpy
+datetime
